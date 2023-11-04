@@ -2,3 +2,4 @@ selenium
 pandas
 datetime
 time
+xlsxwriter

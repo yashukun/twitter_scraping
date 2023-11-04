@@ -36,7 +36,14 @@ driver = webdriver.Edge()
 # Go to the Twitter profile of the account you want to scrape
 profile_name = 'elonmusk'
 driver.get(f"https://twitter.com/{profile_name}")
-
+# initialScroll = 0
+# finalScroll = 1000
+# for i in range(1):
+#     driver.execute_script(
+#         f"window.scrollTo({initialScroll},{finalScroll})")
+#     initialScroll = finalScroll
+#     finalScroll += 1000
+#     time.sleep(5)
 # Wait for the page to load
 driver.implicitly_wait(10)
 
